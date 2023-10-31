@@ -1,25 +1,26 @@
 {
-  "name": "app-portfolio",
-  "version": "1.0.0",
-  "description": "Meu Portfólio App",
-  "main": "index.js",
+  "name": "meu-portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Thaiagou/Meu-Portfolio.git"
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
-  "keywords": [
-    "App",
-    "React"
-  ],
-  "author": "Thiago Ortiz da Silva",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Thaiagou/Meu-Portfolio/issues"
-  },
-  "homepage": "https://github.com/Thaiagou/Meu-Portfolio#readme"
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "vite": "^4.4.5"
+  }
 }
