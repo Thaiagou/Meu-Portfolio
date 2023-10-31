@@ -1,0 +1,23 @@
+{
+  "name": "app-portfolio",
+  "version": "1.0.0",
+  "description": "Meu Portfólio App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thaiagou/Meu-Portfolio.git"
+  },
+  "keywords": [
+    "App",
+    "React"
+  ],
+  "author": "Thiago Ortiz da Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Thaiagou/Meu-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Thaiagou/Meu-Portfolio#readme"
+}
