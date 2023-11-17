@@ -34,7 +34,7 @@ function App() {
         <div className='featureContent'>
           <h2>Ultimo Projeto Criado</h2>
           <h4>Futebol App</h4>
-          <a href='https://github.com/Thaiagou/Futebol-App' target='_blank'><div className='imageFeatureContent'><img src={Projeto} style={{ width: '753px', height: '399px' }} /></div></a>
+          <a href='https://futebol-app-gamma.vercel.app/' target='_blank'><div className='imageFeatureContent'><img src={Projeto} style={{ width: '753px', height: '399px' }} /></div></a>
         </div>
 
       </div>
@@ -45,13 +45,13 @@ function App() {
         <div className='projetos'>
           <h4>Rick and Morty App</h4>
           <div className='imagensProjetos'>
-            <a href='https://github.com/Thaiagou/Rick-and-Morty-Api' target='_blank'><div ><img src='https://cdn.discordapp.com/attachments/760607702929637388/1163680121706782751/Opera_Instantaneo_2023-10-17_002811_deploy-api-nine.vercel.app.png?ex=65407491&is=652dff91&hm=cdd37383dd60590b8c8cf6f8965551feb40320c5b147d51c3118f3e5724479df&' style={{ width: '257px', height: '136px' }} /></div></a>
+            <a href='https://deploy-api-nine.vercel.app/' target='_blank'><div ><img src='https://cdn.discordapp.com/attachments/760607702929637388/1163680121706782751/Opera_Instantaneo_2023-10-17_002811_deploy-api-nine.vercel.app.png?ex=65407491&is=652dff91&hm=cdd37383dd60590b8c8cf6f8965551feb40320c5b147d51c3118f3e5724479df&' style={{ width: '257px', height: '136px' }} /></div></a>
           </div>
         </div>
         <div className='projetos'>
           <h4>Site CyberLife</h4>
           <div className='imagensProjetos2'>
-            <a href='https://github.com/Thaiagou/SiteCyber' target='_blank'><div ><img src='https://cdn.discordapp.com/attachments/760607702929637388/1121941767995019386/sitecyber.html.png' style={{ width: '204px', height: '171px' }} /></div></a>
+            <a href='https://site-cyber.vercel.app/' target='_blank'><div ><img src='https://www.dropbox.com/scl/fi/8vapzv2y6sqs591ig78ed/screencapture.png?rlkey=qwd5jimiqyrt5l8ki8fdxv2dl&raw=1' style={{ width: '204px', height: '171px' }} /></div></a>
           </div>
         </div>
       </div>
