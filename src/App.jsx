@@ -85,7 +85,7 @@ function App() {
         <div className="featureContent">
           <h2>Último Projeto Criado</h2>
           <h4>Futebol App</h4>
-          <h5>Sistema feito com React e com um Banco de Dados criado por mim</h5>
+          <h5>Sistema feito com React e com uma Api criada por mim utilizando o ElephantSQL</h5>
           <a href="https://futebol-app-gamma.vercel.app/" target="_blank">
             <div className="imageFeatureContent">
               <img src={Projeto} style={{ width: "753px", height: "399px" }} />
