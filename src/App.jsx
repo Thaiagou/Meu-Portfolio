@@ -83,8 +83,9 @@ function App() {
           </span>
         </div>
         <div className="featureContent">
-          <h2>Ultimo Projeto Criado</h2>
+          <h2>Último Projeto Criado</h2>
           <h4>Futebol App</h4>
+          <h5>Sistema feito com React e com um Banco de Dados criado por mim</h5>
           <a href="https://futebol-app-gamma.vercel.app/" target="_blank">
             <div className="imageFeatureContent">
               <img src={Projeto} style={{ width: "753px", height: "399px" }} />
@@ -99,12 +100,13 @@ function App() {
       <div style={{ padding: "20px", display: "flex", flexDirection: "row" }}>
         <div className="projetos">
           <h4>Rick and Morty App</h4>
+          <h5>Sistema feito com React e usado uma Api do Rick and Morty.</h5>
           <div className="imagensProjetos">
             <a href="https://deploy-api-nine.vercel.app/" target="_blank">
               <div>
                 <img
                   src="https://cdn.discordapp.com/attachments/760607702929637388/1163680121706782751/Opera_Instantaneo_2023-10-17_002811_deploy-api-nine.vercel.app.png?ex=65407491&is=652dff91&hm=cdd37383dd60590b8c8cf6f8965551feb40320c5b147d51c3118f3e5724479df&"
-                  style={{ width: "257px", height: "136px" }}
+                  style={{ width: "257px", height: "170px" }}
                 />
               </div>
             </a>
@@ -112,12 +114,13 @@ function App() {
         </div>
         <div className="projetos">
           <h4>Site CyberLife</h4>
+          <h5>Site criado para um canal no Youtube de mesmo nome focado em traduções de jogos.</h5>
           <div className="imagensProjetos2">
             <a href="https://site-cyber.vercel.app/" target="_blank">
               <div>
                 <img
                   src="https://www.dropbox.com/scl/fi/8vapzv2y6sqs591ig78ed/screencapture.png?rlkey=qwd5jimiqyrt5l8ki8fdxv2dl&raw=1"
-                  style={{ width: "204px", height: "171px" }}
+                  style={{ width: "257px", height: "170px" }}
                 />
               </div>
             </a>
@@ -128,7 +131,7 @@ function App() {
             <h5>Ainda tem projetos feito com Expo e outros que não estão com Deploy.</h5>
             <img
                   src={SonicGif}
-                  style={{ width: "94px", height: "130px" }}
+                  style={{ width: "120px", height: "170px" }}
                 />
         </div>
       </div>
