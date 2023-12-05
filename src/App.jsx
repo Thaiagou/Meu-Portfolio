@@ -72,20 +72,23 @@ function App() {
               width: "300px",
               gap: "10px",
               alignItems: "center",
+              flexWrap:'wrap'
             }}
           >
             <img src={Tools} style={{ width: "20px", height: "20px" }} />
             <h4>Habilidades: </h4>
+            <div style={{display:"flex"}}>
             <img src={Javascript} style={{ width: "50px", height: "50px" }} />
             <img src={React} style={{ width: "50px", height: "50px" }} />
             <img src={Css} style={{ width: "50px", height: "50px" }} />
             <img src={Sql} style={{ width: "50px", height: "50px" }} />
+            </div>
           </span>
         </div>
         <div className="featureContent">
           <h2>Último Projeto Criado</h2>
           <h4>Futebol App</h4>
-          <h5>Sistema feito com React e com um Banco de Dados criado por mim</h5>
+          <h5>Sistema feito com React e com um Banco de Dados criado por mim.</h5>
           <a href="https://futebol-app-gamma.vercel.app/" target="_blank">
             <div className="imageFeatureContent">
               <img src={Projeto} style={{ width: "753px", height: "399px" }} />
